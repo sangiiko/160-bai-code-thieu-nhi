@@ -1,0 +1,969 @@
+{
+  "_summary": {
+    "total_problems": 160,
+    "custom_checker_cpp": 44,
+    "std_wcmp": 116
+  },
+  "problems": {
+    "001": {
+      "category": "01_Basic_Problems",
+      "folder": "001_Maximum_Element_in_Real_Array",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "002": {
+      "category": "01_Basic_Problems",
+      "folder": "002_First_Positive_Real_Number",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "003": {
+      "category": "01_Basic_Problems",
+      "folder": "003_Last_Even_Integer",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "004": {
+      "category": "01_Basic_Problems",
+      "folder": "004_Index_of_Minimum_Element",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "005": {
+      "category": "01_Basic_Problems",
+      "folder": "005_Index_of_First_Even_Integer",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "006": {
+      "category": "01_Basic_Problems",
+      "folder": "006_Index_of_Last_Perfect_Number",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "007": {
+      "category": "01_Basic_Problems",
+      "folder": "007_Minimum_Positive_Real_Number",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "008": {
+      "category": "01_Basic_Problems",
+      "folder": "008_Index_of_Minimum_Positive_Real_Number",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "009": {
+      "category": "02_Practice_Problems",
+      "folder": "009_Minimum_Element_in_Real_Array",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "010": {
+      "category": "02_Practice_Problems",
+      "folder": "010_First_Even_Integer",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "011": {
+      "category": "02_Practice_Problems",
+      "folder": "011_First_Prime_Number",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "012": {
+      "category": "02_Practice_Problems",
+      "folder": "012_First_Perfect_Number",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "013": {
+      "category": "02_Practice_Problems",
+      "folder": "013_First_Negative_Real_Number",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "014": {
+      "category": "02_Practice_Problems",
+      "folder": "014_Last_Positive_Real_Number",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "015": {
+      "category": "02_Practice_Problems",
+      "folder": "015_Last_Prime_Number",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "016": {
+      "category": "02_Practice_Problems",
+      "folder": "016_Last_Perfect_Number",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "017": {
+      "category": "02_Practice_Problems",
+      "folder": "017_Maximum_Negative_Real_Number",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "018": {
+      "category": "02_Practice_Problems",
+      "folder": "018_Maximum_Prime_Number",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "019": {
+      "category": "02_Practice_Problems",
+      "folder": "019_Minimum_Perfect_Number",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "020": {
+      "category": "02_Practice_Problems",
+      "folder": "020_Minimum_Even_Integer",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "021": {
+      "category": "02_Practice_Problems",
+      "folder": "021_Index_of_Minimum_Negative_Real_Number",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "022": {
+      "category": "03_Thinking_Problems",
+      "folder": "022_Farthest_Value_from_X",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "023": {
+      "category": "03_Thinking_Problems",
+      "folder": "023_Nearest_Value_to_X",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "024": {
+      "category": "03_Thinking_Problems",
+      "folder": "024_Bounding_Segment_a_b",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "025": {
+      "category": "03_Thinking_Problems",
+      "folder": "025_Symmetric_Bounding_Segment_x_x",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "026": {
+      "category": "03_Thinking_Problems",
+      "folder": "026_First_Value_Greater_Than_2003",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "027": {
+      "category": "03_Thinking_Problems",
+      "folder": "027_Last_Negative_Value_Greater_Than_1",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "028": {
+      "category": "03_Thinking_Problems",
+      "folder": "028_First_Integer_in_x_y",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "029": {
+      "category": "03_Thinking_Problems",
+      "folder": "029_Index_Equal_to_Product_of_Neighbors",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "030": {
+      "category": "03_Thinking_Problems",
+      "folder": "030_First_Perfect_Square",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "031": {
+      "category": "03_Thinking_Problems",
+      "folder": "031_First_Palindromic_Integer",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "032": {
+      "category": "03_Thinking_Problems",
+      "folder": "032_First_Integer_Starting_with_an_Odd_Digit",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "033": {
+      "category": "03_Thinking_Problems",
+      "folder": "033_First_Power_of_2",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "034": {
+      "category": "03_Thinking_Problems",
+      "folder": "034_Largest_All_Odd_Digits_Integer",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "035": {
+      "category": "03_Thinking_Problems",
+      "folder": "035_Largest_Power_of_5",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "036": {
+      "category": "03_Thinking_Problems",
+      "folder": "036_Smallest_Even_Integer_Greater_Than_All_Elements",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "037": {
+      "category": "03_Thinking_Problems",
+      "folder": "037_Smallest_Prime_Greater_Than_All_Elements",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "038": {
+      "category": "03_Thinking_Problems",
+      "folder": "038_GCD_of_Array",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "039": {
+      "category": "03_Thinking_Problems",
+      "folder": "039_LCM_of_Array",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "040": {
+      "category": "03_Thinking_Problems",
+      "folder": "040_Least_Frequent_Digit_in_Array",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "041": {
+      "category": "03_Thinking_Problems",
+      "folder": "041_List_All_Ordered_Pairs_a_b_with_a_b",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "042": {
+      "category": "03_Thinking_Problems",
+      "folder": "042_Closest_Pair_in_Distinct_Real_Array",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "043": {
+      "category": "04_Search_and_Listing",
+      "folder": "043_List_Negative_Real_Numbers",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "044": {
+      "category": "04_Search_and_Listing",
+      "folder": "044_List_Real_Numbers_in_x_y",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "045": {
+      "category": "04_Search_and_Listing",
+      "folder": "045_List_Even_Integers_in_x_y",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "046": {
+      "category": "04_Search_and_Listing",
+      "folder": "046_Elements_Greater_Than_Next_Element",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "047": {
+      "category": "04_Search_and_Listing",
+      "folder": "047_Elements_Between_Previous_and_Next",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "048": {
+      "category": "04_Search_and_Listing",
+      "folder": "048_Even_Elements_with_an_Even_Neighbor",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "049": {
+      "category": "04_Search_and_Listing",
+      "folder": "049_Elements_with_an_Opposite_Sign_Neighbor",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "050": {
+      "category": "04_Search_and_Listing",
+      "folder": "050_Indices_of_Maximum_Real_Value",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "051": {
+      "category": "04_Search_and_Listing",
+      "folder": "051_Indices_of_Prime_Numbers",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "052": {
+      "category": "04_Search_and_Listing",
+      "folder": "052_Indices_of_Perfect_Squares",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "053": {
+      "category": "04_Search_and_Listing",
+      "folder": "053_Indices_Equal_to_First_Negative_Value",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "054": {
+      "category": "04_Search_and_Listing",
+      "folder": "054_Indices_Equal_to_Minimum_Positive_Value",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "055": {
+      "category": "04_Search_and_Listing",
+      "folder": "055_Indices_of_Maximum_Even_Integer",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "056": {
+      "category": "04_Search_and_Listing",
+      "folder": "056_List_Integers_Starting_with_an_Odd_Digit",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "057": {
+      "category": "04_Search_and_Listing",
+      "folder": "057_List_Integers_with_All_Odd_Digits",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "058": {
+      "category": "04_Search_and_Listing",
+      "folder": "058_List_Local_Maxima",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "059": {
+      "category": "04_Search_and_Listing",
+      "folder": "059_List_Integers_Starting_with_an_Even_Digit",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "060": {
+      "category": "04_Search_and_Listing",
+      "folder": "060_List_Powers_of_3",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "061": {
+      "category": "04_Search_and_Listing",
+      "folder": "061_List_All_Closest_Pairs_of_Integers",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "062": {
+      "category": "04_Search_and_Listing",
+      "folder": "062_List_Negative_Integers",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "063": {
+      "category": "04_Search_and_Listing",
+      "folder": "063_List_Integers_Starting_with_Odd_Digit_Duplicate",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "064": {
+      "category": "04_Search_and_Listing",
+      "folder": "064_Indices_of_Maximum_Real_Value_Duplicate",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "065": {
+      "category": "04_Search_and_Listing",
+      "folder": "065_Indices_of_Prime_Numbers_Duplicate",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "066": {
+      "category": "05_Sum_and_Average",
+      "folder": "066_Sum_of_All_Elements",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "067": {
+      "category": "05_Sum_and_Average",
+      "folder": "067_Sum_of_Positive_Real_Numbers",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "068": {
+      "category": "05_Sum_and_Average",
+      "folder": "068_Sum_of_Integers_Starting_with_an_Odd_Digit",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "069": {
+      "category": "05_Sum_and_Average",
+      "folder": "069_Sum_of_Integers_with_Tens_Digit_Equal_to_5",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "070": {
+      "category": "05_Sum_and_Average",
+      "folder": "070_Sum_of_Elements_Greater_Than_Previous_Element",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "071": {
+      "category": "05_Sum_and_Average",
+      "folder": "071_Sum_of_Elements_Greater_Than_Next_Element",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "072": {
+      "category": "05_Sum_and_Average",
+      "folder": "072_Sum_of_Local_Maxima",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "073": {
+      "category": "05_Sum_and_Average",
+      "folder": "073_Sum_of_Local_Extrema",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "074": {
+      "category": "05_Sum_and_Average",
+      "folder": "074_Sum_of_Perfect_Squares",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "075": {
+      "category": "05_Sum_and_Average",
+      "folder": "075_Sum_of_Palindromic_Integers",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "076": {
+      "category": "05_Sum_and_Average",
+      "folder": "076_Sum_of_Integers_Starting_with_an_Even_Digit",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "077": {
+      "category": "05_Sum_and_Average",
+      "folder": "077_Average_of_Prime_Numbers",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "078": {
+      "category": "05_Sum_and_Average",
+      "folder": "078_Average_of_Positive_Real_Numbers",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "079": {
+      "category": "05_Sum_and_Average",
+      "folder": "079_Average_of_Elements_Greater_Than_X",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "080": {
+      "category": "05_Sum_and_Average",
+      "folder": "080_Geometric_Mean_of_Positive_Real_Numbers",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "081": {
+      "category": "05_Sum_and_Average",
+      "folder": "081_Average_Pairwise_Distance",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "082": {
+      "category": "06_Counting_and_Checking",
+      "folder": "082_Count_Even_Integers",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "083": {
+      "category": "06_Counting_and_Checking",
+      "folder": "083_Count_Positive_Integers_Divisible_by_7",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "084": {
+      "category": "06_Counting_and_Checking",
+      "folder": "084_Count_Palindromic_Integers",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "085": {
+      "category": "06_Counting_and_Checking",
+      "folder": "085_Count_Occurrences_of_X",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "086": {
+      "category": "06_Counting_and_Checking",
+      "folder": "086_Count_Integers_Ending_with_Digit_5",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "087": {
+      "category": "06_Counting_and_Checking",
+      "folder": "087_Even_vs_Odd_Count_Comparison",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "088": {
+      "category": "06_Counting_and_Checking",
+      "folder": "088_Count_Local_Extrema",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "089": {
+      "category": "06_Counting_and_Checking",
+      "folder": "089_Count_Prime_Numbers",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "090": {
+      "category": "06_Counting_and_Checking",
+      "folder": "090_Count_Perfect_Numbers",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "091": {
+      "category": "06_Counting_and_Checking",
+      "folder": "091_Count_Occurrences_of_Maximum_Value",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "092": {
+      "category": "06_Counting_and_Checking",
+      "folder": "092_Count_Adjacent_Pairs_Both_Even",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "093": {
+      "category": "06_Counting_and_Checking",
+      "folder": "093_Count_Adjacent_Pairs_with_Opposite_Signs",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "094": {
+      "category": "06_Counting_and_Checking",
+      "folder": "094_Count_Adjacent_Same_Sign_Pairs_with_Increasing_Value",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "095": {
+      "category": "06_Counting_and_Checking",
+      "folder": "095_Count_Distinct_Elements",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "096": {
+      "category": "06_Counting_and_Checking",
+      "folder": "096_List_Frequency_of_Each_Value",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "097": {
+      "category": "06_Counting_and_Checking",
+      "folder": "097_List_Elements_Appearing_Exactly_Once",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "098": {
+      "category": "06_Counting_and_Checking",
+      "folder": "098_List_Elements_Appearing_More_Than_Once",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "099": {
+      "category": "06_Counting_and_Checking",
+      "folder": "099_List_Frequency_of_Each_Value_Duplicate",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "100": {
+      "category": "06_Counting_and_Checking",
+      "folder": "100_Count_Values_Appearing_in_Only_One_of_Two_Arrays",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "101": {
+      "category": "06_Counting_and_Checking",
+      "folder": "101_List_Values_Appearing_in_Only_One_of_Two_Arrays",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "102": {
+      "category": "06_Counting_and_Checking",
+      "folder": "102_Count_Occurrences_of_Array_A_as_Contiguous_Subarray_in_B",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "103": {
+      "category": "06_Counting_and_Checking",
+      "folder": "103_List_Most_Frequent_Values",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "104": {
+      "category": "06_Counting_and_Checking",
+      "folder": "104_Count_Distinct_Prime_Numbers",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "105": {
+      "category": "06_Counting_and_Checking",
+      "folder": "105_Check_If_Array_Contains_Zero",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "106": {
+      "category": "06_Counting_and_Checking",
+      "folder": "106_Check_for_Two_Consecutive_Zeros",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "107": {
+      "category": "06_Counting_and_Checking",
+      "folder": "107_Check_If_Array_Contains_an_Even_Integer",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "108": {
+      "category": "06_Counting_and_Checking",
+      "folder": "108_Check_If_Array_Contains_a_Prime_Number",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "109": {
+      "category": "06_Counting_and_Checking",
+      "folder": "109_Check_No_Perfect_Number_Greater_Than_256",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "110": {
+      "category": "06_Counting_and_Checking",
+      "folder": "110_Check_If_All_Elements_Are_Even",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "111": {
+      "category": "06_Counting_and_Checking",
+      "folder": "111_Check_If_Array_Is_Symmetric_Palindrome",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "112": {
+      "category": "06_Counting_and_Checking",
+      "folder": "112_Check_Odd_Pair_Sum_Property",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "113": {
+      "category": "06_Counting_and_Checking",
+      "folder": "113_Check_If_Array_Is_Strictly_Increasing",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "114": {
+      "category": "06_Counting_and_Checking",
+      "folder": "114_Check_If_Array_Is_Strictly_Decreasing",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "115": {
+      "category": "06_Counting_and_Checking",
+      "folder": "115_Check_Arithmetic_Progression",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "116": {
+      "category": "06_Counting_and_Checking",
+      "folder": "116_Check_If_All_Elements_Are_Equal",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "117": {
+      "category": "06_Counting_and_Checking",
+      "folder": "117_Check_Wave_Array",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "118": {
+      "category": "06_Counting_and_Checking",
+      "folder": "118_Check_If_Array_A_Is_a_Subset_of_Array_B",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "119": {
+      "category": "06_Counting_and_Checking",
+      "folder": "119_Count_Record_High_Elements",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "120": {
+      "category": "07_Sorting",
+      "folder": "120_Sort_Array_Ascending",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "121": {
+      "category": "07_Sorting",
+      "folder": "121_Sort_Array_Descending",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "122": {
+      "category": "07_Sorting",
+      "folder": "122_Sort_Odd_Elements_Ascending_Keep_Others_Fixed",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "123": {
+      "category": "07_Sorting",
+      "folder": "123_Sort_Primes_Ascending_Keep_Others_Fixed",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "124": {
+      "category": "07_Sorting",
+      "folder": "124_Sort_Perfect_Numbers_Descending_Keep_Others_Fixed",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "125": {
+      "category": "07_Sorting",
+      "folder": "125_Check_If_Array_B_Is_a_Permutation_of_Array_A",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "126": {
+      "category": "07_Sorting",
+      "folder": "126_Sort_Positives_Ascending_Keep_Negatives_Fixed",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "127": {
+      "category": "07_Sorting",
+      "folder": "127_Sort_Evens_and_Odds_Independently_in_Place",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "128": {
+      "category": "07_Sorting",
+      "folder": "128_Sort_Positives_Ascending_and_Negatives_Descending_in_Place",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "129": {
+      "category": "07_Sorting",
+      "folder": "129_Merge_Two_Sorted_Arrays_Ascending",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "130": {
+      "category": "07_Sorting",
+      "folder": "130_Merge_Two_Ascending_Arrays_into_One_Descending_Array",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "131": {
+      "category": "08_Insertion",
+      "folder": "131_Insert_Element_X_at_Index_K",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "132": {
+      "category": "08_Insertion",
+      "folder": "132_Online_Insertion_Maintaining_Descending_Order",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "133": {
+      "category": "08_Insertion",
+      "folder": "133_Build_Parity_Array_B_from_Array_A",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "134": {
+      "category": "08_Insertion",
+      "folder": "134_Insert_X_into_Sorted_Ascending_Array",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "135": {
+      "category": "08_Insertion",
+      "folder": "135_Online_Insertion_Maintaining_Ascending_Order",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "136": {
+      "category": "09_Deletion",
+      "folder": "136_Delete_Element_at_Index_K",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "137": {
+      "category": "09_Deletion",
+      "folder": "137_Delete_All_Maximum_Elements",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "138": {
+      "category": "09_Deletion",
+      "folder": "138_Delete_All_Negative_Numbers",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "139": {
+      "category": "09_Deletion",
+      "folder": "139_Delete_All_Even_Integers",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "140": {
+      "category": "09_Deletion",
+      "folder": "140_Delete_All_Perfect_Squares",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "141": {
+      "category": "09_Deletion",
+      "folder": "141_Delete_All_Occurrences_of_X",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "142": {
+      "category": "09_Deletion",
+      "folder": "142_Delete_All_Prime_Numbers",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "143": {
+      "category": "09_Deletion",
+      "folder": "143_Deduplicate_Array_Keep_First_Occurrence",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "144": {
+      "category": "09_Deletion",
+      "folder": "144_Delete_All_Elements_Appearing_More_Than_Once",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "145": {
+      "category": "10_Array_Manipulation",
+      "folder": "145_Move_All_1s_to_the_Front",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "146": {
+      "category": "10_Array_Manipulation",
+      "folder": "146_Partition_Evens_Front_Zeros_Middle_Odds_Back",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "147": {
+      "category": "10_Array_Manipulation",
+      "folder": "147_Move_Multiples_of_3_to_the_Front",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "148": {
+      "category": "10_Array_Manipulation",
+      "folder": "148_Reverse_Array",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "149": {
+      "category": "10_Array_Manipulation",
+      "folder": "149_Reverse_Order_of_Even_Elements",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "150": {
+      "category": "10_Array_Manipulation",
+      "folder": "150_Reverse_Order_of_Positive_Elements",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "151": {
+      "category": "10_Array_Manipulation",
+      "folder": "151_Cyclic_Left_Shift_by_K",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "152": {
+      "category": "10_Array_Manipulation",
+      "folder": "152_Cyclic_Right_Shift_by_K",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "153": {
+      "category": "10_Array_Manipulation",
+      "folder": "153_Print_Array_with_Parity_Tag_Even_Yellow_Odd_White",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "154": {
+      "category": "10_Array_Manipulation",
+      "folder": "154_Print_Evens_on_First_Line_Odds_on_Second_Line",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "155": {
+      "category": "10_Array_Manipulation",
+      "folder": "155_Reverse_Evens_and_Odds_Independently_in_Place",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "156": {
+      "category": "10_Array_Manipulation",
+      "folder": "156_Swap_Min_and_Max_Values_in_Array",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "157": {
+      "category": "10_Array_Manipulation",
+      "folder": "157_Round_All_Elements_to_Nearest_Integer",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "158": {
+      "category": "10_Array_Manipulation",
+      "folder": "158_Filter_Odd_Elements_into_Array_B",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    },
+    "159": {
+      "category": "10_Array_Manipulation",
+      "folder": "159_Filter_Negative_Elements_into_Array_B",
+      "checker": "checker.cpp",
+      "reason": "floating-point tolerance (1e-6)"
+    },
+    "160": {
+      "category": "10_Array_Manipulation",
+      "folder": "160_Filter_Prime_Elements_into_Array_B",
+      "checker": "std::wcmp.cpp",
+      "reason": "exact token comparison"
+    }
+  }
+}
